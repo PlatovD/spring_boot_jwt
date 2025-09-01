@@ -84,7 +84,9 @@ public class JWTService {
     }
 
     private String generateJWT(Map<String, Object> claims, UserDetails userDetails, Long expirationDurationSeconds) {
-        return Jwts.builder().claims(claims).subject(userDetails.getUsername())
+        return Jwts.builder()
+                .header().add("typ", "JWT").and()
+                .claims(claims).subject(userDetails.getUsername())
                 .issuedAt(new Date(System.currentTimeMillis()))
                 .expiration(new Date(System.currentTimeMillis() + 1000 * expirationDurationSeconds))
                 .signWith(getSigningKey(key)).compact();
