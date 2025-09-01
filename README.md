@@ -24,9 +24,9 @@ eyJhbGciOiJIUzM4NCJ9.eyJyb2xlIjoiUk9MRV9VU0VSIiwiaWQiOjYsInR5cGUiOiJhY2Nlc3MiLCJ
 ```
 
 ### Компоненты:
-- **Header** (`eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9`) - алгоритм и тип токена
-- **Payload** (`eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ`) - данные пользователя
-- **Signature** (`SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c`) - электронная подпись
+- **Header** (`eyJhbGciOiJIUzM4NCJ9`) - алгоритм и тип токена
+- **Payload** (`eyJyb2xlIjoiUk9MRV9VU0VSIiwiaWQiOjYsInR5cGUiOiJhY2Nlc3MiLCJlbWFpbCI6ImRpbWFAZ21haWwuY29tIiwic3ViIjoiRGltYXNpazEiLCJpYXQiOjE3NTY3MjI0NDQsImV4cCI6MTc1NjcyMzk0NH0`) - данные пользователя
+- **Signature** (`X8VJjVNk4TqPHQZf5p6nmcNqGhajaR1u01BiICJ6BshAcXmS1FB8Qt5v6Qpvactt`) - электронная подпись
 
 <br>
 <br>
